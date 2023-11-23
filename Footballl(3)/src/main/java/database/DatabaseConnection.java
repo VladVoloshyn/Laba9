@@ -8,7 +8,7 @@ public class DatabaseConnection {
     public static Connection getConnection() throws SQLException {
         String url = "jdbc:mysql://localhost:3306/Football";
         String user = "root";
-        String password = "";
+        String password = "Gagapro2004";
         return DriverManager.getConnection(url, user, password);
     }
 }
